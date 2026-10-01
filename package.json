@@ -1,0 +1,18 @@
+{
+  "name": "kf-tracker",
+  "version": "1.0.0",
+  "description": "多传感器二维单目标卡尔曼跟踪后端 (TypeScript + Node.js + SQLite)",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && tsc -p tsconfig.test.json && node --test dist-test/test/kf.test.js dist-test/test/service.test.js",
+    "start": "npm run build && node dist/cli.js serve",
+    "demo": "npm run build && node dist/demo.js",
+    "kf": "node dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "tsx": "*",
+    "typescript": "^5.9.0"
+  }
+}
