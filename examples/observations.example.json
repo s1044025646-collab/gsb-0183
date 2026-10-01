@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ex-0001",
+    "scenario": "manual",
+    "sensorId": "radar",
+    "observedAt": 0.0,
+    "receivedAt": 0.3,
+    "x": 0.1,
+    "y": 0.0,
+    "noise": [[0.5, 0.0], [0.0, 0.5]]
+  },
+  {
+    "id": "ex-0002",
+    "scenario": "manual",
+    "sensorId": "cam",
+    "observedAt": 1.0,
+    "receivedAt": 2.4,
+    "x": 1.2,
+    "y": 0.4,
+    "noise": [[2.0, 0.3], [0.3, 2.0]]
+  },
+  {
+    "id": "ex-0003",
+    "scenario": "manual",
+    "sensorId": "radar",
+    "observedAt": 2.0,
+    "receivedAt": 2.2,
+    "x": 2.0,
+    "y": 1.1,
+    "noise": [[0.5, 0.0], [0.0, 0.5]]
+  }
+]
